@@ -1,0 +1,15 @@
+{
+  "name": "general_for_gh_upload",
+  "version": "1.0.0",
+  "description": "general repo to show Cypress e2e testing in action",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:e2e:chrome": "cypress run --headed --browser chrome"
+  },
+  "author": "Sher Singh Bhachu",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  }
+}
